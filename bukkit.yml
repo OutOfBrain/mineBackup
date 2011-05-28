@@ -1,0 +1,8 @@
+settings:
+    update-folder: update
+database:
+    username: bukkit
+    isolation: SERIALIZABLE
+    driver: org.sqlite.JDBC
+    password: walrus
+    url: jdbc:sqlite:{DIR}{NAME}.db
